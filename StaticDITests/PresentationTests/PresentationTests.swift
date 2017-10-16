@@ -1,15 +1,15 @@
 //
-//  StaticDITests.swift
-//  StaticDITests
+//  PresentationTests.swift
+//  PresentationTests
 //
 //  Created by Takeshi Ihara on 10/16/17.
 //  Copyright © 2017 Takeshi Ihara. All rights reserved.
 //
 
 import XCTest
-@testable import StaticDI
+@testable import Presentation
 
-class StaticDITests: XCTestCase {
+class PresentationTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
