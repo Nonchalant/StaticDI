@@ -7,6 +7,7 @@ platform :ios do
 
   desc "Runs setup"
   lane :setup do
+    sh "cd .. && xcodegen"
     unless File.exist?("../Pods/Manifest.lock") && FileUtils.cmp("../Podfile.lock", "../Pods/Manifest.lock") then
       cocoapods(verbose: true)
     end

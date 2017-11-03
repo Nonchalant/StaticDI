@@ -1,5 +1,5 @@
-platform :ios, '9.0'
-swift_version = '3.2'
+platform :ios, '11.1'
+swift_version = '4.0'
 use_frameworks!
 
 target 'StaticDI' do
