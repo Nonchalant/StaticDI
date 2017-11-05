@@ -8,6 +8,13 @@
 
 ## Setup
 
+### XcodeGen
+
+```
+$ brew tap yonaskolb/XcodeGen https://github.com/yonaskolb/XcodeGen.git
+$ brew install XcodeGen
+```
+
 ### Gem
 
 ```
@@ -19,4 +26,3 @@ $ bundle install --path=vendor/bundle
 ```
 $ bundle exec fastlane ios setup
 ```
-
