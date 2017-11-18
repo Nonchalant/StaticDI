@@ -11,6 +11,7 @@ Created by https://www.gitignore.io/api/swift,osx
 ## Build generated
 build/
 DerivedData/
+Index/
 
 ## Various settings
 *.pbxuser
